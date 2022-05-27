@@ -1,0 +1,6 @@
+a=input("輸入值為(請用逗號隔開)").split(',')
+min=sorted(a)
+max=sorted(min,reverse=True)
+min1=int(''.join(min))
+min2=int(''.join(max))
+print("最大值數列與最小數列差值為:",(min2-min1))
